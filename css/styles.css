@@ -1,0 +1,357 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../assets/EventPulse8.png') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Search Container */
+.search-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.search-container input {
+    width: 100%;
+}
+
+/* Stats Section */
+.stats {
+    background: #6a0dad;
+    padding: 40px 0;
+}
+
+
+/* Custom Purple Theme for Buttons */
+.btn-primary {
+    background-color: #6a0dad !important; 
+    border-color: #6a0dad !important;
+}
+
+.btn-primary:hover {
+    background-color: #8a2be2 !important; 
+    border-color: #8a2be2 !important;
+}
+
+/* About Section Styling */
+#about {
+    /* background: #f8f9fa; */
+    padding: 60px 0;
+    border-radius: 10px;
+}
+
+/* Feature List */
+.feature-list i {
+    color: #6a0dad;
+}
+
+/* Custom Purple Theme */
+.text-purple {
+    color: #6a0dad;
+}
+
+.btn-purple {
+    background: #6a0dad;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.btn-purple:hover {
+    background: #5b0caf;
+    color: #fff;
+}
+/* Featured Event Section */
+.featured-event {
+    background: linear-gradient(to right, #6a0dad, #8a2be2);
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+/* Event Cards */
+.event-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+/* Event Meta Info */
+.event-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.countdown {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    padding: 3px 8px;
+    background: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Trending Badges */
+.badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
+/* Payment Icons */
+.payment-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: white;
+}
+
+/* Hero Section */
+.hero-events {
+    background: linear-gradient(135deg, #2c003e, #6a0dad);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Event Cards */
+.event-cards {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(255, 204, 0, 0.2);
+}
+
+/* Custom Button Glow Effect */
+.btn-glow {
+    background: #6a0dad;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.btn-glow:hover {
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.8);
+    transform: scale(1.05);
+}
+
+
+/* Custom Neon Effects */
+.text-neon {
+    color: #000;
+}
+
+/* Hero Section */
+.hero-event-details {
+    background: url('../assets/bgg.png') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Sidebar */
+.list-group {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.list-group-item {
+    font-size: 1.1rem;
+    transition: background 0.3s;
+}
+
+.list-group-item:hover {
+    background: #6a0dad;
+    color: #000;
+}
+
+/* Event Card */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Countdown Timer */
+.countdown-timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6a0dad;
+}
+
+/* Event Details Page */
+#eventDetails .card {
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+
+#eventDetails img {
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+#eventDetails .card {
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    animation: fadeInUp 1s ease-in-out;
+} 
+
+#eventDetails h2 {
+    color: #6a0dad;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#eventDetails p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#eventDetails ul {
+    list-style: none;
+    padding: 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#eventDetails ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#eventDetails ul li i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Placeholder Animation */
+.placeholder {
+    font-size: 1.5rem;
+    color: #6a0dad;
+    animation: fadeInOut 2s infinite;
+}
+
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+/* Footer */
+/* Footer Styling */
+.footer {
+    background: #6a0dad; /* Purple Theme */
+    color: white;
+    padding: 50px 0;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #c2bcc1;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.footer .social-icons a:hover {
+    background: #c2bcc1;
+}
+
+.footer .img-fluid {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
+    }
+}
+
